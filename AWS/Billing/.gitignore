@@ -1,0 +1,33 @@
+# Build directories
+lambda_package/
+layer/
+
+# Zip files (build artifacts)
+lambda_function.zip
+layer.zip
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars.json
+
+# Local environment files
+.env
+.envrc
+
+# Python virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+*.swp
+*.swo
+
+# Response files from testing
+response.json 
